@@ -107,7 +107,7 @@ std::string partL(std::string email)
     // корректный email-адрес должен состоять из двух частей, разделённых знаком @.
     // Первая часть должна иметь длину не менее одного и не более 64 символов
 
-    std::string temp;
+    std::string temp = "";
 
     for (int i = 0; i < email.length(); i++)
     {
