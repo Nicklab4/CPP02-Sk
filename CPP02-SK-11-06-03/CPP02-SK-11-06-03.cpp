@@ -107,7 +107,7 @@ bool checkOkt(std::string str)
 
         else
         {
-            std ::cout << "Ошибка! Есть посторонние символы вместо чисел и точек\n";
+            std ::cout << "Ошибка! Есть посторонние символы вместо чисел\n";
             return false;
         }
 
